@@ -28,7 +28,7 @@ jobs:
         run: |
           cd apok-dev
           pip3 install wheel
-          pip3 install tgcrypto=1.2.2
+          pip3 install tgcrypto==1.2.2
       - name: Build wheels
         timeout-minutes: 330
         continue-on-error: true
